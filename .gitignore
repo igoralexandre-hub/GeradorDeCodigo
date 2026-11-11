@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# Environment variables and credentials
+.env
+.env.*
+.streamlit/secrets.toml
+.streamlit/secrets.*.toml
+.streamlit/secrets.toml.example
+
+# Local database and generated files
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
